@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+/* create a top header add in this website */
+.header{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.header .icon-heading{
+    margin-right: 20px;
+    cursor: pointer;
+    float: right;
+    visibility: hidden;
+}
+
+
+
+.icon-heading i{
+    font-size: 1.1rem;
+}
+
+.icon-heading .cancel{
+    font-size: 1.1rem;
+    visibility: hidden;
+}
+
+/* create a five anchor tag add in this website */
+.five-anchor{
+    width: 100%;
+    margin: 3% 0;
+    text-align: center;
+ }
+.five-anchor a{
+    margin: 2%;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* <!-- create a content and side form add in this website --> */
+.let-discuss{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+.hoodin h1{
+    font-size: 2rem;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.hoodin p{
+    width: 500px;
+    color: #AFAAAA;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.iconss i{
+    display: inline;
+    margin-right: 20px;
+}
+.iconss p{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.iconss1{
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.iconss1 i{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 9px 10px;
+    transition: .3s ease;
+}
+.iconss1 i:hover{
+    background-color: black;
+    color: white;
+}
+
+/* create a grey box content add in this website */
+.grey-color{
+    background-color: #121212;
+    width: 500px;
+    padding: 30px 70px;
+}
+.grey-color input{
+    margin-bottom: 50px;
+    display: block;
+    border-top: none;
+    border-bottom: 2px solid grey;
+    width: 350px;
+    font-size: .9rem;
+    outline: none;
+    color: grey;
+    padding-bottom:10px;
+    border-left: none;
+    border-right: none;
+    background: none;
+}
+.grey-color a{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* create a frequently asked questions part add  in this website */
+.frequently{
+    margin-top: 180px;
+    margin-left:120px;
+}
+
+
+.lefting{
+    margin-right: 80px;
+    width: 500px;
+}
+
+/* create a click display content and side icons add in this website */
+.main-toggler{
+    width: 520px;
+    display: block;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+}
+.toggle-container1{
+    margin-left: 60px;
+    width: 450px;
+    padding: 10px 10px;
+    background-color: #121212;
+    font-size: .9rem;
+}
+
+.toggle-content1{
+    display: none; /* Initially hidden */
+    padding: 10px;
+    background-color: #121212;
+}
+
+.toggle-header1{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: none; 
+}
+
+.icon1{
+    float: right;
+    font-size: 1.2rem;
+}
+
+
+/* create a second display flex add in this website */
+.toggle-container2{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 450px;
+    padding: 10px 10px;
+    background-color: #121212;
+    font-size: .9rem;
+}
+
+.toggle-content2{
+    display: none;
+    padding: 10px;
+    background-color: #121212;
+}
+
+.toggle-header2{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: none; 
+}
+
+.icon2{
+    float: right;
+    font-size: 1.2rem;
+}
+
+
+
+/* create a third display flex add in this website */
+.toggle-container3{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 450px;
+    padding: 10px 10px;
+    background-color: #121212;
+    font-size: .9rem;
+}
+
+.toggle-content3{
+    display: none;
+    padding: 10px;
+    background-color: #121212;
+}
+
+.toggle-header3{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: none; 
+}
+
+.icon3{
+    float: right;
+    font-size: 1.2rem;
+}
+
+
+
+/* create a click display content and side icons add in this website */
+.float-left{
+    width: 520px;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 140px;
+}
+.float-container4{
+    margin-left: 60px;
+    width: 450px;
+    padding: 10px 10px;
+    background-color: #121212;
+    font-size: .9rem;
+}
+
+.float-content4{
+    display: none; /* Initially hidden */
+    padding: 10px;
+    background-color: #121212;
+}
+
+.float-header4{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: none; 
+}
+
+.icon4{
+    float: right;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* create a click display content and side icons add in this website */
+.float-container5{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 450px;
+    padding: 10px 10px;
+    background-color: #121212;
+    font-size: .9rem;
+}
+
+.float-content5{
+    display: none; /* Initially hidden */
+    padding: 10px;
+    background-color: #121212;
+}
+
+.float-header5{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: none; 
+}
+
+.icon5{
+    float: right;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* create a click display content and side icons add in this website */
+
+.float-container6{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 450px;
+    padding: 10px 10px;
+    background-color: #121212;
+    font-size: .9rem;
+}
+
+.float-content6{
+    display: none; /* Initially hidden */
+    padding: 10px;
+    background-color: #121212;
+}
+
+.float-header6{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: none; 
+}
+
+.icon6{
+    float: right;
+    font-size: 1.2rem;
+}
+
+
+
+/* create a click display content and side icons add in this website */
+.float-container7{
+    margin-left: 60px;
+    width: 450px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    background-color: #121212;
+    font-size: .9rem;
+}
+
+.float-content7{
+    display: none; /* Initially hidden */
+    padding: 10px;
+    background-color: #121212;
+}
+
+.float-header7{
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: none; 
+}
+
+.icon7{
+    float: right;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 414px){
+    .icon-heading{
+        visibility: visible;
+        color: white;
+    }
+    .header .icon-heading{
+        margin-top: -25px;
+        margin-right:10px;
+        cursor: pointer;
+        float: right;
+        visibility: visible;
+    }
+    .header-heading{
+        text-align: left;
+        margin-left: 15px;
+    }
+    .header-heading i{
+        font-size: 1.4rem;
+    }
+    .five-anchor{
+        display: none;
+    }
+    .five-anchor a{
+        display: block;
+        margin-bottom: 30px;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    .let-discuss{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+.hoodin h1{
+    font-size: 2rem;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.hoodin p{
+    width: 500px;
+    color: #AFAAAA;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.iconss i{
+    display: inline;
+    margin-right: 20px;
+}
+.iconss p{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.iconss1{
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.iconss1 i{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 9px 10px;
+    transition: .3s ease;
+}
+.iconss1 i:hover{
+    background-color: black;
+    color: white;
+}
+
+.let-discuss{
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.hoodin h1{
+    width: 100%;
+ }
+.hoodin p{
+    width: 100%;
+    color: #AFAAAA;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.iconss i{
+    display: inline;
+    margin-right: 20px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.iconss1{
+    margin-left: -19px;
+    margin-bottom: 50px;
+    width: 110%;
+    margin-top: 10px;
+}
+.iconss1 i{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 10px 11px;
+    transition: .3s ease;
+    }
+
+
+    .grey-color{
+        background-color: #121212;
+        width: 100%;
+        margin-bottom: 80px;
+        padding: 30px 30px;
+    }
+    .grey-color input{
+        width: 100%;
+    }
+    .grey-color a{
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: white;
+    }
+    .frequently{
+        width: 100%;
+        font-size: .9rem;
+        margin-top: 110px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+    
+    
+
+    /* create a click display content and side icons add in this website */
+    .main-toggler{
+        margin-top: 60px;
+        width: 100%;
+        display: block;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .toggle-container1{
+        margin-left: 10px;
+        width: 92%;
+        padding: 10px 10px;
+        background-color: #121212;
+        font-size: .9rem;
+    }
+
+    .toggle-content1{
+        display: none; /* Initially hidden */
+        padding: 10px;
+        background-color: #121212;
+    }
+
+    .toggle-container2{
+        margin-left: 10px;
+        width: 92%;
+        padding: 10px 10px;
+        background-color: #121212;
+        font-size: .9rem;
+    }
+
+    .toggle-content2{
+        display: none; /* Initially hidden */
+        padding: 10px;
+        background-color: #121212;
+    }
+
+    .toggle-container3{
+        margin-left: 10px;
+        width: 92%;
+        padding: 10px 10px;
+        background-color: #121212;
+        font-size: .9rem;
+    }
+
+    .toggle-content3{
+        display: none; /* Initially hidden */
+        padding: 10px;
+        background-color: #121212;
+    }
+
+
+
+
+
+
+    .float-left{
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .float-container4{
+        margin-left: 20px;
+        width: 92%;
+        padding: 10px 10px;
+    }
+    .float-container5{
+        margin-left: 20px;
+        width: 92%;
+        padding: 10px 10px;
+    }
+    .float-container6{
+        margin-left: 20px;
+        width: 92%;
+        padding: 10px 10px;
+    }
+    .float-container7{
+        margin-left: 20px;
+        width: 92%;
+        padding: 10px 10px;
+    }
+
+    
+}

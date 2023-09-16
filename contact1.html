@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Fashion Photography Portfolio</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+        <!-- create a top header add in this website -->
+        <div class="header">
+            <div class="header-heading">
+                <h1><i>Meason Leblance</i></h1>
+            </div>
+            <div class="icon-heading">
+                <i class="fa-solid fa-bars icons"></i>
+                <i class="fa-solid fa-xmark cancel"></i>
+            </div>
+    
+        </div>
+    
+        <!-- create a five anchor tag add in this website -->
+        <div class="five-anchor">
+            <a href="Home.html">HOME</a>
+            <a href="index.html">ABOUT</a>
+            <a href="Portfolio.html">PORFOLIO</a>
+            <a href="Services.html">SERVICES</a>
+            <a href="contact1.html">CONTACT</a>
+        </div>
+
+
+        <!-- create a content and side form add in this website -->
+        <div class="let-discuss">
+            <div class="discuss">
+                <div class="hoodin">
+                    <h1>LET'S DISCUSS YOUR PROJECT</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+                <!-- create a icons add in this website -->
+                <div class="iconss">
+                    <i class="fa-solid fa-envelope"></i><p>Email@demo.com</p><br>
+                    <i class="fa-solid fa-phone"></i><p>+92 341-227494-6</p>
+                </div>
+                <!-- .create a youtube icons add in this website -->
+                <div class="iconss1">
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <!-- .create a grey box content add in this website -->
+            <div class="grey-color">
+                <input type="text" placeholder="Name" required>
+                <input type="text" placeholder="Email Address" required>
+                <input type="text" placeholder="Message" required>
+                <a href="">SUBMIT</a>
+            </div>
+        </div>
+
+        <!-- create a frequently asked questions part add  in this website -->
+        <div class="frequently">
+            <h1>FREQUENTLY ASKED QUESTIONS</h1>
+        </div>
+    
+        <!-- create a click display content and side icons add in this website -->
+        <div class="main-toggler">
+            <!-- first toggler add in this website -->
+            <div class="toggle-container1">
+                <p class="toggle-header1">1. Impedit egestas aliquet? <span class="icon1">+</span></p>
+                <div class="toggle-content1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                </div>
+            </div>
+
+            <!-- create a second display block add in this website -->
+            <div class="toggle-container2">
+                <p class="toggle-header2">2. Sapien class quo temporibus? <span class="icon2">+</span></p>
+                <div class="toggle-content2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                </div>
+            </div>
+
+            <!-- create a third display block add in this website -->
+            <div class="toggle-container3">
+                <p class="toggle-header3">3. Elementum voluptate sodales? <span class="icon3">+</span></p>
+                <div class="toggle-content3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                </div>
+            </div>
+            </div>
+
+
+            <!-- create a float left part add in this website -->
+            <div class="float-left">
+                <div class="float-container4">
+                    <p class="float-header4">4. Lorem ipsum dolor sit amet consectetur? <span class="icon4">+</span></p>
+                    <div class="float-content4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </div>
+                </div>
+
+                <div class="float-container5">
+                    <p class="float-header5">5. Lorem ipsum dolor sit amet consectetur? <span class="icon4">+</span></p>
+                    <div class="float-content5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </div>
+                </div>
+
+
+                <div class="float-container6">
+                    <p class="float-header6">6. Lorem ipsum dolor sit amet consectetur? <span class="icon4">+</span></p>
+                    <div class="float-content6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </div>
+                </div>
+
+
+                <div class="float-container7">
+                    <p class="float-header7">7. Lorem ipsum dolor sit amet consectetur? <span class="icon4">+</span></p>
+                    <div class="float-content7">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+            $('.toggle-header1').click(function(){
+                $(this).next('.toggle-content1').slideToggle();
+                var currentIcon = $(this).find('.icon1').text();
+                if(currentIcon === "+"){
+                    $(this).find('.icon1').text('-');
+                }
+                else{
+                    $(this).find('.icon1').text('+');
+                }
+            })
+
+            // create a second display flex add in this website
+            $('.toggle-header2').click(function(){
+                $(this).next('.toggle-content2').slideToggle();
+                var currentIcon = $(this).find('.icon2').text();
+                if(currentIcon === "+"){
+                    $(this).find('.icon2').text('-');
+                }
+                else{
+                    $(this).find('.icon2').text('+');
+                }
+            })
+
+
+
+            // create a third display flex add in this website
+            $('.toggle-header3').click(function(){
+                $(this).next('.toggle-content3').slideToggle();
+                var currentIcon = $(this).find('.icon3').text();
+                if(currentIcon === "+"){
+                    $(this).find('.icon3').text('-');
+                }
+                else{
+                    $(this).find('.icon3').text('+');
+                }
+            })
+
+
+
+
+            // create a third display flex add in this website
+            $('.float-header4').click(function(){
+                $(this).next('.float-content4').slideToggle();
+                var currentIcon = $(this).find('.icon4').text();
+                if(currentIcon === "+"){
+                    $(this).find('.icon4').text('-');
+                }
+                else{
+                    $(this).find('.icon4').text('+');
+                }
+            })
+
+
+            $('.float-header5').click(function(){
+                $(this).next('.float-content5').slideToggle();
+                var currentIcon = $(this).find('.icon5').text();
+                if(currentIcon === "+"){
+                    $(this).find('.icon5').text('-');
+                }
+                else{
+                    $(this).find('.icon5').text('+');
+                }
+            })
+
+
+            $('.float-header6').click(function(){
+                $(this).next('.float-content6').slideToggle();
+                var currentIcon = $(this).find('.icon6').text();
+                if(currentIcon === "+"){
+                    $(this).find('.icon6').text('-');
+                }
+                else{
+                    $(this).find('.icon6').text('+');
+                }
+            })
+
+
+            $('.float-header7').click(function(){
+                $(this).next('.float-content7').slideToggle();
+                var currentIcon = $(this).find('.icon7').text();
+                if(currentIcon === "+"){
+                    $(this).find('.icon7').text('-');
+                }
+                else{
+                    $(this).find('.icon7').text('+');
+                }
+            })
+            
+
+            $('.icons').click(function(){
+                $('.five-anchor').slideToggle('slow');
+                $('.five-anchor').css({'position': 'fixed', 'background-color': 'black', 'color': 'white'});
+            })
+        });
+
+	</script>
+</body>
+</html>

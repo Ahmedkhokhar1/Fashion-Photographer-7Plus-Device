@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+/* create a top header add in this website */
+.header{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.header .icon-heading{
+    margin-right: 20px;
+    cursor: pointer;
+    float: right;
+    visibility: hidden;
+}
+
+
+
+.icon-heading i{
+    font-size: 1.1rem;
+}
+
+.icon-heading .cancel{
+    font-size: 1.1rem;
+    visibility: hidden;
+    }
+
+/* create a five anchor tag add in this website */
+.five-anchor{
+    width: 100%;
+    margin: 3% 0;
+    text-align: center;
+ }
+.five-anchor a{
+    margin: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+/* <!-- create a services add in this website --> */
+.portfolio{
+    justify-content: space-between;
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+.changing h1{
+    margin-right: 150px;
+}
+.content p{
+    margin-top: 20px;
+    line-height: 25px;
+    color: grey;
+    width: 550px;
+    font-size: 1.2rem;
+    margin-right: 170px;
+    font-family: sans-serif;
+}
+
+
+/* <!-- create a photography add in this website --> */
+.image{
+    margin-bottom: 200px;
+    margin-left:160px;
+}
+.image img{
+    width: 1000px;
+}
+
+/* <!-- create a four flex content add in this website --> */
+.photoshoot{
+    display: flex;
+    margin: auto;
+    width: 1100px;
+}
+.grey{
+    width: 370px;
+    background-color: #111111;
+    padding: 30px;
+    font-family: sans-serif;
+}
+.grey h1{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.black{
+    width: 400px;
+    padding: 30px;
+    background-color: black;
+}
+.grey p{
+    width: 220px;
+    line-height: 25px;
+}
+.black h1{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+.black p{
+    line-height: 24px;
+    width: 220px;
+}
+
+
+
+/* <!-- create a glasses style add in this website --> */
+.glasses-style{
+    display: flex;
+    margin-top: 200px;
+    padding-left: 200px;
+    font-family: sans-serif;
+}
+.image1 img{
+    width: 430px;
+}
+.content1{
+    padding-top: 140px;
+    padding-left: 70px;
+    width: 600px;
+}
+.content1 h1{
+    margin-bottom: 20px;
+}
+.content1 p{
+    width: 450px;
+    color: grey;
+    line-height: 25px;
+}
+
+
+/* <!-- create my experience add in this website --> */
+.experience{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    font-family: sans-serif;
+}
+.number{
+    width: 350px;
+    padding-left: 60px;
+}
+.PARA{
+    width: 500px;
+    color: grey;
+}
+.PARA p{
+    line-height: 25px;
+}
+
+/* <!-- create a three number add in this website --> */
+.three-number{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin-top: 200xp;
+}
+.three-number{
+    margin-top: 80px;
+}
+.number1 {
+    margin-left: 50px;
+}
+.number1 h1{
+    margin-bottom: 20px;
+}
+.number1 p{
+    color: grey;
+    width: 300px;
+    line-height: 24px;
+}
+
+
+
+/* create a mason lablence add in this website */
+.mason1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.mason1 p:first-child{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.mason1 a{
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    margin: 0px 10px;
+}
+.mason1 p{
+    margin-top: 60px;
+    font-size: 1.2rem;
+}
+
+
+
+
+@media only screen and (max-width: 414px){
+
+    .header{
+        width: 100%;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+    .header-heading{
+        float: left;
+    }
+    .header-heading h1{
+        font-size: 1.4rem;
+        margin-left: 15px;
+        margin-top: 8px;
+    }
+    .header .icon-heading{
+        margin-top: 11px;
+        margin-right: 10px;
+        cursor: pointer;
+        float: right;
+        visibility: visible;
+    }
+    .five-anchor{
+        width: 100%;
+        display: none;
+        margin-top: 50px;
+        position: fixed;
+        background-color: black;
+        padding: 20px 0;
+     }
+     .five-anchor .centering{
+        text-align: center;
+        padding-right: 0px;
+     }
+    .five-anchor a{
+        margin-bottom: 30px;
+        font-weight: bold;
+        font-size: .8rem;
+        display: block;
+    }
+    .portfolio{
+        width: 100%;
+        display: block;
+    }
+    .changing h1{
+        width: 100%;
+        padding-right: 200px;
+        display: block;
+    }
+    .content p{
+        margin-top: 3px;
+        width: 97%;
+        font-size: 1rem;
+        padding-left: 30px;
+    }
+    .image{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 30px;
+    }
+    .image img{
+        width: 360px;
+    }
+
+    .photoshoot{
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .grey{
+        width: 100%;
+        padding: 30px;
+        height: 200px;
+    }
+    .grey h1{
+        font-size: 1.5rem;
+    }
+    .black{
+        height: 200px;
+        width: 100%;
+        padding: 30px;
+        background-color: black;
+    }
+    .grey p{
+        width: 100%;
+        line-height: 25px;
+    }
+    .black h1{
+        font-size: 1.5rem;
+    }
+    .black p{
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .glasses-style{
+        display: block;
+        width: 100%;
+        margin-top: 80px;
+        padding-left: 20px;
+        font-family: sans-serif;
+    }
+    .image1 img{
+        width: 95%;
+    }
+    .content1{
+        padding-top: 30px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .content1 h1{
+        margin-bottom: 20px;
+    }
+    .content1 p{
+        width: 95%;
+        font-size: .9rem;
+        color: #AFAAAA;
+        margin-bottom: 20px;
+    }
+
+    .experience{
+        display: block;
+        text-align: center;
+        margin-top: 90px;
+        width: 100%;
+    }
+    .number{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .PARA{
+        margin: auto;
+        width: 90%;
+        color: #AFAAAA;
+    }
+
+    .three-number{
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .three-number{
+        margin-top: 80px;
+    }
+    .number1 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .number1 h1{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .number1 p{
+        color: grey;
+        width: 90%;
+        font-size: 1.1rem;
+        margin: auto;
+        color: #AFAAAA;
+
+    }
+    .mason1{
+        margin-top: 80px;
+    }
+    .mason1 p:last-child{
+        width: 100%;
+        text-align: center;
+        padding: 0 40px;
+        line-height: 25px;
+        font-size: 1.1rem;
+    }
+    
+}

@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+/* create a top header add in this website */
+.header{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.header .icon-heading{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-heading h1{
+    margin-top: 3px;
+    font-size: 2.22rem;
+}
+
+
+
+.icon-heading i{
+    font-size: 1.1rem;
+    display: none;
+}
+
+.icon-heading .cancel{
+    font-size: 1.1rem;
+    display: none;
+}
+
+/* create a five anchor tag add in this website */
+.five-anchor{
+    width: 100%;
+    margin: 3% 0px;
+    text-align: center;
+ }
+.five-anchor a{
+    font-size: 1.1rem;
+    margin: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* create a part and add image in this website */
+.inner-image{
+    background-image: url('Images/bright.jpg');
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 140px;
+}
+.inner-image h1{
+    justify-content: center;
+    text-align: center;
+    padding-top: 300px;
+    width: 600px;
+    font-size: 3rem;
+    margin: auto;
+}
+
+/* create and add four images add in this website */
+.images{
+    margin-bottom: 150px;
+}
+.four img{
+    width: 220px;
+    height: 280px;
+    margin-left: 40px;   
+    display: block;
+}
+.four{
+    display: flex;
+}
+.move{
+    margin-left: 130px;
+}
+.two{
+    margin-top: 20px;
+}
+.four .up{
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+    color: grey;
+    font-size: .7rem;
+    transition: .3s;
+}
+
+.four .serivcess{
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 120px;
+    color: grey;
+    transition: .3s;
+    font-size: .7rem;
+}
+
+.four a:hover{
+    color: white;
+}
+
+/* create a four anchor and side content add in this website */
+.main-anchor{
+    margin-bottom: 200px;
+}
+.setting{
+    width: 100%;
+    position: absolute;
+}
+.four-anchor-plus-content{
+    display: flex;
+    justify-content: space-around;
+}
+.content p{
+    width: 700px;
+    position: relative;
+    margin-right: 140px;
+    top: 200px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.content a{
+    color: white;
+    text-decoration: none;
+}
+.content .second{
+    color: lightgrey;
+    font-weight: normal;
+}
+.four-anchor{
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.four-anchor i{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+    transition: .4s ease;
+}
+.four-anchor i:hover{
+    background-color: black;
+    margin-bottom: 40px;
+    padding: 10px 10px 10px 10px;
+    color: grey;
+    outline: none;
+    border: none;
+}
+
+/* create a viewport part add in this website */
+.viewport{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+}
+.port a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* create a eight images add in this website */
+.four-images{
+    display: flex;
+    position: relative;
+    top: 100px;
+    margin-bottom: 120px;
+    padding-left: 210px;
+}
+
+.four1 img{
+    width: 270px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.four2 img{
+    cursor: pointer;
+    margin-right: 10px;
+    width: 270px;
+}
+.top-top{
+    display: flex;
+    margin-bottom: 300px;
+    padding-left: 210px;
+}
+.top1 img{
+    width: 270px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.top2 img{
+    cursor: pointer;
+    margin-right: 10px;
+    width: 270px;
+}
+
+
+/* create a services part add in this website */
+.heading1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* create service and add a content add in this website */
+.photoshoot{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 6%;
+}
+.div1{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.inside{
+    margin-top: 100px;
+}
+.para1 h2{
+    margin-bottom: 20px;
+}
+.para2 h2{
+    margin-bottom: 20px;
+}
+.para1 p{
+    width: 330px;
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.para2 p{
+    width: 330px;
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 1.2rem;
+}
+.photoshoot a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+
+/* create a Erat placerat paragraph add in this website */
+.placerat{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    font-family: sans-serif;
+}
+.placerat p{
+    width: 90%;
+    font-size: 1.7rem;
+}
+/* create border radius image and side content add in this website */
+.imagess{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 130px;
+    font-family: sans-serif;
+}
+.imagess img{
+    margin-right: 20px;
+    float: left;
+    width: 70px;
+}
+.imagess .bolde{
+    display: inline;
+    font-weight: bold;
+}
+
+/* create a mason lablence add in this website */
+.mason1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.mason1 p:first-child{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: initial;
+}
+.mason1 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0px 20px;
+}
+.mason1 p{
+    font-family: sans-serif;
+    margin-top: 60px;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 414px){
+    .five-anchor{
+        display: none;
+        width: 100%;
+        padding: 20px 0;
+        position: fixed;
+        background-color: white;
+    }
+    .five-anchor a{
+        font-weight: bold;
+        display: block;
+        margin-bottom: 30px;
+        font-size: .8rem;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-heading h1{
+        margin-left: 14px;
+        margin-top: 9px;
+        font-size: 1.4rem;
+    }
+    .icon-heading i{
+        font-size: 1.1rem;
+        margin-top: 11px;
+        cursor: pointer;
+        display: block;
+        margin-right: 8px;
+    }
+    .inner-image{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .inner-image h1{
+        padding-top: 250px;
+        font-size: 1.3rem;
+        text-align: center;
+        width: 80%;
+    }
+    .images{
+        margin-bottom: 20px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .four{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .four img{
+        width: 80%;   
+        display: block;
+        height: 400px;
+    }
+    .four .up{
+        font-size: 1rem;
+        margin-bottom: 50px;
+        margin-right: 100px;
+    }
+    .four .first-image{
+        margin-left: -90px;
+        width: 117%;
+    }
+    .four .first{
+        width:50%;
+        margin-left: 0;
+        margin-right: 120px;
+        text-align: left;
+    }
+    .setting{
+        position: absolute;
+
+    }
+    .main-anchor{
+        width: 100%;
+        position: relative;
+        top: -10px;
+        display: inline-block;
+    }
+    .four-anchor-plus-content{
+        display: block;
+    }
+    .content p{
+        width: 90%;
+        font-size: 1rem;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+    .content a{
+        position: relative;
+        top: 200px;
+        left: 20px;
+        text-decoration: underline;
+        font-weight: bold;
+        color: white;
+    }
+    .four-anchor{
+        width: 95%;
+        position: relative;
+        left: 20px;
+        display: flex;
+    }
+    .four-anchor i{
+        width: 35px;
+        padding: 9px 26px 8px 9px;
+        margin: 0 3%;
+    }
+    .viewport{
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .view{
+        margin: auto;
+    }
+    .port a{
+    display: none;    
+    }
+    .four-images{
+        display: block;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .four1{
+        width: 100%;
+        display: flex;
+    }
+    .four1 img{
+        width: 47%;
+    }
+    .four2{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .four2 img{
+        width: 45%;
+    }
+
+    .top-top{
+        display: block;
+        padding-left: 10px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .top1{
+        width: 100%;
+        display: flex;
+    }
+    .top1 img{
+        width: 47%;
+    }
+    .top2{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .top2 img{
+        width: 46.5%;
+    }
+    .heading1{
+        font-size: 1.6rem;
+    }
+
+
+
+
+
+
+    .photoshoot{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .div1{
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .para2{
+        margin-bottom: 40px;
+    }
+    .div2{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .div2 img{
+        margin-left: 20px;
+        width: 90%;
+    }
+    .para1{
+        width: 100%;
+        
+    }
+    .para1 p{
+        width: 94%;
+        margin-left: 10px;
+        color: grey;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+    .para2 p{
+        width: 94%;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    .photoshoot a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+
+
+
+    .placerat{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .placerat p{
+        width: 90%;
+        font-size: 1.1rem;
+        line-height: 30px;
+        margin-left: 20px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+
+    .imagess{
+    font-family: sans-serif;
+        margin-left: 170px;
+    }
+    .imagess img{
+        float: none;
+        display: block;
+        width: 30%;
+    }
+    .imagess .bolde{
+        display: block;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+    .imagess .grey-color{
+        color: grey;
+        margin-left: -20px;
+        margin-top: 10px;
+        display:block;
+        width: 140px;
+    }
+
+
+    .mason1{
+        text-align: center;
+    }
+    .mason1 p:first-child{
+        font-size: 1.5rem;
+    }
+    .mason1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        margin: 0px 10px;
+    }
+    .mason1 p{
+        margin: 40px;
+        line-height: 28px;
+        font-size: 1rem;
+    }
+}

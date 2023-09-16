@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+/* create a top header add in this website */
+.header{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.header .icon-heading{
+    margin-right: 20px;
+    cursor: pointer;
+    float: right;
+    visibility: hidden;
+}
+
+
+
+.icon-heading i{
+    font-size: 1.1rem;
+}
+
+.icon-heading .cancel{
+    font-size: 1.1rem;
+    visibility: hidden;
+    }
+
+/* create a five anchor tag add in this website */
+.five-anchor{
+    width: 100%;
+    margin: 3% 0;
+    text-align: center;
+ }
+.five-anchor a{
+    margin: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+/* create a image and side content add in this website */
+.both-content{
+    width: 100%;
+    margin-bottom: 130px;
+}
+.inner{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.inner p{
+    width: 550px;
+    color: grey;
+    line-height: 30px;
+    font-size: 1.3rem;
+}
+.inner img{
+    width: 570px;
+}
+.part1{
+    margin-right: -200px;
+}
+.part2{
+    margin-top: 200px;
+    height: 250px;
+}
+.part2 h3, p{
+    margin-bottom:40px;
+}
+.part2 a{
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* create a three columns add in this website */
+
+.main-columns{
+    margin-bottom: 200px;
+}
+.columns{
+    background-color: #171716;
+    width: 1200px;
+    margin-left: 130px;
+    padding: 40px 40px;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+}
+.columns h2{
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.columns h3{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.columns p{
+    color: grey;
+}
+
+/* create and add a single image add in this website */
+.image{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+.image img{
+    width: 76%;
+}
+
+/* create a work Experience add in this website */
+.work-experience{
+    padding: 40px 380px 0px 170px;
+    margin-bottom: 200px;
+}
+.work{
+    display: flex;
+}
+.one p{
+    margin-top: 20px;
+    width: 80%;
+    color: grey;
+    font-size: 1.3rem;
+    line-height: 28px;
+}
+.same-color{
+    background-color: #171716;
+    width: 150%;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+.same-color h2{
+    margin-bottom: 20px;
+}
+
+.same-color p{
+    color: grey;
+    font-size: 1.3rem;
+}
+
+
+/* create a mason lablence add in this website */
+.mason1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.mason1 p:first-child{
+    font-size: 2rem;
+}
+.mason1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0px 20px;
+}
+.mason1 p{
+    margin-top: 60px;
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    .header{
+        width: 100%;
+        text-align: left;
+        font-size: .7rem;
+        padding-left: 2%;
+    }
+    .five-anchor{
+        width: 100%;
+    }
+    .both-content{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .inner{
+        width: 100%;
+        display: block;
+        padding: 2% 2%;
+    }
+    .inner img{
+        width: 73%;
+    }
+    .part2{
+        margin-top:50px;
+    }
+
+    .columns{
+        margin-left: 10px;
+        width: 95%;
+        display: block;
+    }
+    .columns h2{
+        margin-top: 80px;
+    }
+    .main-columns{
+        margin-bottom: 100px;
+    }
+
+}
+
+
+@media only screen and (max-width: 414px){
+    .header{
+        width: 100%;
+        text-align: left;
+        font-size: .7rem;
+        padding-left: 2%;
+    }
+    .header-heading i{
+        margin-left: 6px;
+        font-size: 1.4rem;
+    }
+    .header-heading h1{
+        margin-top: 9px;
+    }
+    .icon-heading .icons{
+        visibility: visible;
+        position: absolute;
+        top: 31px;
+        right: 28px;
+    }
+    .five-anchor{
+        padding: 20px 0;
+        width: 100%;
+        display: none;
+    }
+    .five-anchor a{
+        font-size: .8rem;
+        display: block;
+        margin-bottom: 30px;
+        font-weight: bold;
+        
+    }
+    .both-content{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .inner{
+        width: 100%;
+        display: block;
+        padding: 2% 2%;
+    }
+    .image{
+        margin-bottom: 110px;
+    }
+    .inner img{
+        width: 66%;
+    }
+    .part2{
+        margin-top:50px;
+    }
+    .inner h3{
+        margin-bottom: 20px;
+    }
+    .inner p{
+        color: grey;
+        line-height: 25px;
+        width: 95%;
+        font-size: 1.1rem;
+    }
+    .image{
+        width: 100%;
+        text-align: left;
+     }
+    .image img{
+        width: 100%;
+    }
+    .work{
+        display: block;
+    }
+    .one{
+        width: 100%;
+    }
+    .one p{
+        width: 100%;
+    }
+    .same-color{
+        background-color: #171716;
+        width: 150%;
+        padding: 20px;
+        margin-bottom: 35px;
+    }
+    .same-color h2{
+        margin-bottom: 20px;
+    }
+    
+    .same-color p{
+        color: grey;
+        font-size: 1.3rem;
+    }
+    .work-experience{
+        width: 100%;
+        padding: 0px 18px 0px 20px;
+        margin-bottom: 200px;
+    }    
+    .one p{
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+    .flex{
+        width: 100%;
+    }
+    .same-color{
+        width: 100%;
+    }
+    .mason1{
+        text-align: center;
+    }
+    .mason1 p:first-child{
+        font-size: 1.5rem;
+    }
+    .mason1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        margin: 0px 10px;
+    }
+    .mason1 p{
+        margin: 60px;
+        font-size: 1rem;
+    }
+
+}
+

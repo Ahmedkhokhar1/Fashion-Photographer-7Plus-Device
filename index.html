@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <!-- create a top header add in this website -->
+    <div class="header">
+        <div class="header-heading">
+            <h1><i>Meason Leblance</i></h1>
+        </div>
+        <div class="icon-heading">
+            <i class="fa-solid fa-bars icons"></i>
+            <i class="fa-solid fa-xmark cancel"></i>
+        </div>
+
+    </div>
+
+    <!-- create a five anchor tag add in this website -->
+    <div class="five-anchor">
+        <a href="Home.html">HOME</a>
+        <a href="index.html">ABOUT</a>
+        <a href="Portfolio.html">PORFOLIO</a>
+        <a href="Services.html">SERVICES</a>
+        <a href="contact1.html">CONTACT</a>
+    </div>
+
+    <!-- create a image and side content add in this website -->
+    <div class="both-content">
+        <div class="inner">
+            <div class="part1">
+                <img src="Images/photographer.jpg" alt="">
+            </div>
+            <div class="part2">
+                <h3>I'M MASON LEBLANCE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="">DOWNLOAD CV</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- create a three columns add in this website -->
+    <div class="main-columns">
+        <div class="columns">
+            <div class="col1">
+                <h2>Awards</h2>
+                <h3>Inernational Photography Award</h3>
+                <p>2016</p>
+                <h3>Fashion Photography Award</h3>
+                <p>2019</p>
+                <h3>Best Shot Award</h3>
+                <p>2022</p>
+                <h3>Euro Lense Award</h3>
+                <p>2022</p>
+            </div>
+            <div class="col2">
+                <h2>Featured</h2>
+                <h3>Vogue Maganize</h3>
+                <p>2018</p>
+                <h3>Aperture Maganize</h3>
+                <p>2020</p>
+                <h3>PetaPixel Website</h3>
+                <p>2022</p>
+            </div>
+            <div class="col3">
+                <h2>Education</h2>
+                <h3>Certified Professional Photographer</h3>
+                <p>New York institude of Photography New york</p>
+                <h3>Master of Fine Arts</h3>
+                <p>University of Washington, Seattle</p>
+                <h3>Bachelor of Arts</h3>
+                <p>University of Washington, Seattle</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- create and add a single image add in this website -->
+    <div class="image">
+        <img src="Images/portfolio.jpg" alt="">
+    </div>
+
+    <!-- create a work Experience add in this website -->
+    <div class="work-experience">
+            <div class="work">
+                <div class="one">
+                    <h2>WORK EXPERIENCE</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
+                </div>
+                <div class="flex">
+                    <div class="flex-one same-color">
+                        <h2>Fashion Week Maganize</h2>
+                        <p>Director of Photography</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <div class="flex-one same-color">
+                        <h2>Abstract Modeling Agency</h2>
+                        <p>Senior Photographer</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident,</p>
+                    </div>
+                    <div class="flex-one same-color">
+                        <h2>Freelance Photographer</h2>
+                        <p>Self-employed</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!-- create a mason lablence add in this website -->
+    <div class="mason1">
+        <p><i>Mason lablence</i></p>
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">YouTube</a>
+        <a href="">Linkdeln</a>
+        <p>Copyright © 2023 Fashion Photography Portfolio | Powered by Fashion Photography Portfolio</p>
+    </div>
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.icons').click(function(){
+                $('.five-anchor').slideToggle('slow');
+                $('.five-anchor').css({'position': 'fixed', 'background-color': 'black', 'color': 'white'});
+            })  
+        })
+    </script>
+</body>
+</html>
